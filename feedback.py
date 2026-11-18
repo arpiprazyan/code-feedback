@@ -21,6 +21,8 @@ LANGUAGES = {
     ".c": "C",
     ".cpp": "C++",
     ".go": "Go",
+    ".rs": "Rust",
+    ".cs": "C#",
 }
 
 SYSTEM_PROMPT = (

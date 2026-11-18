@@ -29,6 +29,7 @@ def test_detect_language():
     assert detect_language("main.py") == "Python"
     assert detect_language("Main.JAVA") == "Java"
     assert detect_language("notes.txt") == "unknown language"
+    assert detect_language("lib.rs") == "Rust"
 
 
 def test_prompt_contains_code_and_level():
